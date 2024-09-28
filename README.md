@@ -2,6 +2,13 @@
 
 ## Description
 This microservice provides a service registry and discovery functionality, allowing microservices to register themselves and discover other services in the ecosystem.
+It's very important to know the execution order of the microservices, this order is descriptive down below:
+
+([`bc-eureka-server`](https://github.com/davecalix83/bc-eureka-server))
+-> ([`bc-api-gateway`](https://github.com/davecalix83/bc-api-gateway))
+-> ([`bc-products-service`](https://github.com/davecalix83/bc-products-service))
+-> ([`bc-orders-service`](https://github.com/davecalix83/bc-orders-service))
+-> ([`bc-payments-service`](https://github.com/davecalix83/bc-payments-service))
 
 ## Features
 - Service registration and discovery
